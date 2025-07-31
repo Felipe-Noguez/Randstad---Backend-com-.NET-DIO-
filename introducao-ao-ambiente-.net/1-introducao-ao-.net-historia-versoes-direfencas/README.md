@@ -65,3 +65,9 @@ Resumindo: O .NET Framework é a versão antiga e legada, que parou de receber n
 Links utilizados em aula:
 - [https://dotnet.microsoft.com/pt-br/learn/dotnet/what-is-dotnet](https://dotnet.microsoft.com/pt-br/learn/dotnet/what-is-dotnet)
 - [https://dotnet.microsoft.com/pt-br/learn/dotnet/what-is-dotnet](https://time.graphics/pt/line/291016)
+- [](https://www.scalablepath.com/dot-net/microsoft-dot-net-framework)
+- [](https://www.quora.com/Why-was-C-developed-when-an-object-oriented-programming-language-like-C++-already-existed)
+- [](https://docs.microsoft.com/pt-br/dotnet/core/introduction)
+- [](https://dotnet.microsoft.com/en-us/platform/support/policy/dotnet-core)
+- [](https://pt.wikipedia.org/wiki/.NET_Framework)
+- [](https://docs.microsoft.com/pt-br/dotnet/core/get-started)
