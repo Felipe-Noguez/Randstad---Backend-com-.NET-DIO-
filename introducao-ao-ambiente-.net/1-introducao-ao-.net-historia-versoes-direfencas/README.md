@@ -65,9 +65,19 @@ Resumindo: O .NET Framework é a versão antiga e legada, que parou de receber n
 Links utilizados em aula:
 - [https://dotnet.microsoft.com/pt-br/learn/dotnet/what-is-dotnet](https://dotnet.microsoft.com/pt-br/learn/dotnet/what-is-dotnet)
 - [https://dotnet.microsoft.com/pt-br/learn/dotnet/what-is-dotnet](https://time.graphics/pt/line/291016)
-- [](https://www.scalablepath.com/dot-net/microsoft-dot-net-framework)
-- [](https://www.quora.com/Why-was-C-developed-when-an-object-oriented-programming-language-like-C++-already-existed)
-- [](https://docs.microsoft.com/pt-br/dotnet/core/introduction)
-- [](https://dotnet.microsoft.com/en-us/platform/support/policy/dotnet-core)
-- [](https://pt.wikipedia.org/wiki/.NET_Framework)
-- [](https://docs.microsoft.com/pt-br/dotnet/core/get-started)
+- [https://www.scalablepath.com/dot-net/microsoft-dot-net-framework](https://www.scalablepath.com/dot-net/microsoft-dot-net-framework)
+- [https://www.quora.com/Why-was-C-developed-when-an-object-oriented-programming-language-like-C++-already-existed](https://www.quora.com/Why-was-C-developed-when-an-object-oriented-programming-language-like-C++-already-existed)
+- [https://docs.microsoft.com/pt-br/dotnet/core/introduction](https://docs.microsoft.com/pt-br/dotnet/core/introduction)
+- [https://dotnet.microsoft.com/en-us/platform/support/policy/dotnet-core](https://dotnet.microsoft.com/en-us/platform/support/policy/dotnet-core)
+- [https://pt.wikipedia.org/wiki/.NET_Framework](https://pt.wikipedia.org/wiki/.NET_Framework)
+- [https://docs.microsoft.com/pt-br/dotnet/core/get-started](https://docs.microsoft.com/pt-br/dotnet/core/get-started)
+- [https://www.guru99.com/compiler-design-phases-of-compiler.html](https://www.guru99.com/compiler-design-phases-of-compiler.html)
+- [https://freecontent.manning.com/how-is-c-compiled](https://freecontent.manning.com/how-is-c-compiled)
+- [https://www.youtube.com/watch?v=afUiVvDUIRA](https://www.youtube.com/watch?v=afUiVvDUIRA)
+
+https://jpdeffo.medium.com/how-dotnet-core-compilation-work-for-absolute-beginners-fdba62b3167c
+https://www.geeksforgeeks.org/what-is-just-in-time-jit-compiler-in-dot-net/
+https://www.quora.com/Is-assembly-just-another-name-for-machine-code
+https://hpc-wiki.info/hpc/Compiler
+https://freecontent.manning.com/how-is-c-compiled/
+https://codeasy.net/lesson/c_sharp_compilation_process
