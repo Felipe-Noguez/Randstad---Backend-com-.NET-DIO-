@@ -90,3 +90,13 @@ Links utilizados em aula:
 
 - [https://www.tutorialspoint.com/csharp/csharp_data_types.htm](https://www.tutorialspoint.com/csharp/csharp_data_types.htm)
 - [https://docs.microsoft.com/pt-br/dotnet/api/system.datetime?view=net-6.0](https://docs.microsoft.com/pt-br/dotnet/api/system.datetime?view=net-6.0)
+
+
+
+
+https://docs.microsoft.com/pt-br/dotnet/csharp/language-reference/operators/assignment-operator
+https://pediaa.com/what-is-the-difference-between-int-parse-and-convert-toint32-in-c/
+https://www.w3schools.com/cs/cs_operators.php
+https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/types/casting-and-type-conversions
+
+

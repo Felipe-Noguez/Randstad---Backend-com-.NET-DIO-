@@ -75,3 +75,99 @@ Console.WriteLine("Data atual + 5 dias (sem hora): " + dataAdicionadaSemHora.ToS
 
 DateTime dataAdicionadaSemSegundos = DateTime.Now.AddDays(5);
 Console.WriteLine("Data atual sem segundos: " + dataAdicionadaSemSegundos.ToString("dd/MM/yyyy HH:mm"));
+
+// ######################## Introdução operador de atribuição ########################
+
+int a = 10;
+int b = 20;
+int c = a + b;
+
+c += 5; // Incrementando o valor de c em 5
+c -= 3; // Decrementando o valor de c em 3
+c *= 2; // Multiplicando o valor de c por 2
+
+Console.WriteLine($"A soma de {a} + {b} é igual a {c}");
+
+// ######################## Convertendo tipos (cast) ########################
+int numero = Convert.ToInt32("123"); // Convertendo string para int
+Console.WriteLine($"Número convertido: {numero}");
+
+int numero2 = int.Parse("456"); // Convertendo string para int usando Parse
+Console.WriteLine($"Número 2 convertido: {numero2}");
+
+int numero3 = int.TryParse("456", out int resultado) ? resultado : 0; // Usando TryParse para conversão segura
+Console.WriteLine($"Número 3 convertido: {numero3}");
+
+//int numero4 = int.Parse("789texto"); 
+//Console.WriteLine($"Número 4 convertido: {numero4}"); // Isso causará uma exceção se a string não for um número válido
+// Exemplo de conversão que causará exceção
+// Unhandled exception. System.FormatException: The input string '789texto' was not in a correct format.
+//    at System.Number.ThrowFormatException[TChar](ReadOnlySpan`1 value)
+//    at System.Int32.Parse(String s)
+//    at Program.<Main>$(String[] args) in /home/felipe/Documents/workspaces/.NET/DIO/Randstad - Backend com .NET/2-sintaxe-basica-com-.net/2.1-sintaxe/Program.cs:line 101
+
+
+// int.Parse não poder receber null ou string vazia, caso contrário, causará uma exceção
+// int numero5 = int.Parse(null); // Isso causará uma exceção
+// Convert.ToInt32(null); // Isso retornará 0, pois Convert lida com null
+
+// ######################## Convertendo para string (cast) ########################
+int d = 10;
+string e = d.ToString(); // Convertendo int para string
+Console.WriteLine($"Valor de e: {e}");
+
+
+// ######################## Cast implícito ########################
+
+int f = 10;
+double g = f; // Cast implícito de int para double
+Console.WriteLine($"Valor de g (double): {g}");
+
+int h = 4;
+long i = h; // Cast implícito de int para long
+Console.WriteLine($"Valor de i (long): {i}");
+
+long j = 100; // Exemplo de long
+int k = Convert.ToInt32(j); // Convertendo long para int (pode causar perda de dados se o valor for muito grande)
+
+// Neste caso a vairavel inteira não será capaz de armazenar o valor de j, pois é maior que o máximo permitido para int
+//j = long.MaxValue; // Atribuindo o valor máximo de long
+//k = Convert.ToInt32(j); // Convertendo long para int (pode causar perda de dados)
+//Console.WriteLine($"Valor de k (int): {k}");
+// Unhandled exception. System.OverflowException: Value was either too large or too small for an Int32.
+//    at System.Convert.ThrowInt32OverflowException()
+//    at System.Convert.ToInt32(Int64 value)
+//    at Program.<Main>$(String[] args) in /home/felipe/Documents/workspaces/.NET/DIO/Randstad - Backend com .NET/2-sintaxe-basica-com-.net/2.1-sintaxe/Program.cs:line 131
+
+
+
+// ######################## Ordem dos operadores (ordem de precedência) ########################
+
+double resultadoSoma = 4 / 2 + 2; // A divisão é feita antes da adição
+Console.WriteLine($"Resultado da expressão 4 / 2 + 2: {resultadoSoma}");
+
+double resultadoMultiplicacao = (10 + 5) * 2; // A expressão entre parênteses é avaliada primeiro, depois a multiplicação
+Console.WriteLine($"Resultado da expressão (10 + 5) * 2: {resultadoMultiplicacao}");
+
+// ######################## Convertendo de maneira segura ########################
+string textoNumero = "15-";
+int numeroZero = 0;
+
+int.TryParse(textoNumero, out numeroZero); // Tentando converter string para int de forma segura
+Console.WriteLine($"Número convertido de forma segura: {numeroZero}");
+
+// int numeroSeguro = Convert.ToInt32(textoNumero); // Desta forma, se a conversão falhar, causará uma exceção, pois no caso,
+//  a string "15-" não é um número válido.
+// Console.WriteLine($"Número convertido de forma segura: {numeroSeguro}");  
+
+Console.WriteLine($"Conversão realizada com sucesso");
+
+string textoNumero2 = "123";
+if (int.TryParse(textoNumero2, out int numeroConvertido))
+{
+    Console.WriteLine($"Número convertido com sucesso: {numeroConvertido}");
+}
+else
+{
+    Console.WriteLine("Falha na conversão.");
+}
