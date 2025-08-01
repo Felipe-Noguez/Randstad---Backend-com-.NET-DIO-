@@ -1,0 +1,15 @@
+/home/felipe/Documents/workspaces/.NET/DIO/Randstad - Backend com .NET/2-intro-as-ides-configs-de-ambiente-.net/2.1-exemplos-fundamentos/bin/Debug/net8.0/2.1-exemplos-fundamentos
+/home/felipe/Documents/workspaces/.NET/DIO/Randstad - Backend com .NET/2-intro-as-ides-configs-de-ambiente-.net/2.1-exemplos-fundamentos/bin/Debug/net8.0/2.1-exemplos-fundamentos.deps.json
+/home/felipe/Documents/workspaces/.NET/DIO/Randstad - Backend com .NET/2-intro-as-ides-configs-de-ambiente-.net/2.1-exemplos-fundamentos/bin/Debug/net8.0/2.1-exemplos-fundamentos.runtimeconfig.json
+/home/felipe/Documents/workspaces/.NET/DIO/Randstad - Backend com .NET/2-intro-as-ides-configs-de-ambiente-.net/2.1-exemplos-fundamentos/bin/Debug/net8.0/2.1-exemplos-fundamentos.dll
+/home/felipe/Documents/workspaces/.NET/DIO/Randstad - Backend com .NET/2-intro-as-ides-configs-de-ambiente-.net/2.1-exemplos-fundamentos/bin/Debug/net8.0/2.1-exemplos-fundamentos.pdb
+/home/felipe/Documents/workspaces/.NET/DIO/Randstad - Backend com .NET/2-intro-as-ides-configs-de-ambiente-.net/2.1-exemplos-fundamentos/obj/Debug/net8.0/2.1-exemplos-fundamentos.GeneratedMSBuildEditorConfig.editorconfig
+/home/felipe/Documents/workspaces/.NET/DIO/Randstad - Backend com .NET/2-intro-as-ides-configs-de-ambiente-.net/2.1-exemplos-fundamentos/obj/Debug/net8.0/2.1-exemplos-fundamentos.AssemblyInfoInputs.cache
+/home/felipe/Documents/workspaces/.NET/DIO/Randstad - Backend com .NET/2-intro-as-ides-configs-de-ambiente-.net/2.1-exemplos-fundamentos/obj/Debug/net8.0/2.1-exemplos-fundamentos.AssemblyInfo.cs
+/home/felipe/Documents/workspaces/.NET/DIO/Randstad - Backend com .NET/2-intro-as-ides-configs-de-ambiente-.net/2.1-exemplos-fundamentos/obj/Debug/net8.0/2.1-exemplos-fundamentos.csproj.CoreCompileInputs.cache
+/home/felipe/Documents/workspaces/.NET/DIO/Randstad - Backend com .NET/2-intro-as-ides-configs-de-ambiente-.net/2.1-exemplos-fundamentos/obj/Debug/net8.0/2.1-exemplos-fundamentos.sourcelink.json
+/home/felipe/Documents/workspaces/.NET/DIO/Randstad - Backend com .NET/2-intro-as-ides-configs-de-ambiente-.net/2.1-exemplos-fundamentos/obj/Debug/net8.0/2.1-exemplos-fundamentos.dll
+/home/felipe/Documents/workspaces/.NET/DIO/Randstad - Backend com .NET/2-intro-as-ides-configs-de-ambiente-.net/2.1-exemplos-fundamentos/obj/Debug/net8.0/refint/2.1-exemplos-fundamentos.dll
+/home/felipe/Documents/workspaces/.NET/DIO/Randstad - Backend com .NET/2-intro-as-ides-configs-de-ambiente-.net/2.1-exemplos-fundamentos/obj/Debug/net8.0/2.1-exemplos-fundamentos.pdb
+/home/felipe/Documents/workspaces/.NET/DIO/Randstad - Backend com .NET/2-intro-as-ides-configs-de-ambiente-.net/2.1-exemplos-fundamentos/obj/Debug/net8.0/2.1-exemplos-fundamentos.genruntimeconfig.cache
+/home/felipe/Documents/workspaces/.NET/DIO/Randstad - Backend com .NET/2-intro-as-ides-configs-de-ambiente-.net/2.1-exemplos-fundamentos/obj/Debug/net8.0/ref/2.1-exemplos-fundamentos.dll
