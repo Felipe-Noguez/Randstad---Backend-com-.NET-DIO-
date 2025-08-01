@@ -30,6 +30,12 @@ dotnet new console
 ```bash
 dotnet run
 ```
+
+- Buildando projeto:
+```bash
+dotnet build
+```
+
 - Lista todos os tipos de projetos que é possível criar:
 ```bash
 dotnet new --list
