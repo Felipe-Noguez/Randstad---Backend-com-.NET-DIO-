@@ -75,9 +75,18 @@ Links utilizados em aula:
 - [https://freecontent.manning.com/how-is-c-compiled](https://freecontent.manning.com/how-is-c-compiled)
 - [https://www.youtube.com/watch?v=afUiVvDUIRA](https://www.youtube.com/watch?v=afUiVvDUIRA)
 
-https://jpdeffo.medium.com/how-dotnet-core-compilation-work-for-absolute-beginners-fdba62b3167c
-https://www.geeksforgeeks.org/what-is-just-in-time-jit-compiler-in-dot-net/
-https://www.quora.com/Is-assembly-just-another-name-for-machine-code
-https://hpc-wiki.info/hpc/Compiler
-https://freecontent.manning.com/how-is-c-compiled/
-https://codeasy.net/lesson/c_sharp_compilation_process
+- [https://jpdeffo.medium.com/how-dotnet-core-compilation-work-for-absolute-beginners-fdba62b3167c](https://jpdeffo.medium.com/how-dotnet-core-compilation-work-for-absolute-beginners-fdba62b3167c)
+- [https://www.geeksforgeeks.org/what-is-just-in-time-jit-compiler-in-dot-net/](https://www.geeksforgeeks.org/what-is-just-in-time-jit-compiler-in-dot-net/)
+- [https://www.quora.com/Is-assembly-just-another-name-for-machine-code](https://www.quora.com/Is-assembly-just-another-name-for-machine-code)
+- [https://hpc-wiki.info/hpc/Compiler](https://hpc-wiki.info/hpc/Compiler)
+- [https://freecontent.manning.com/how-is-c-compiled/(https://freecontent.manning.com/how-is-c-compiled/)]
+- [https://codeasy.net/lesson/c_sharp_compilation_process](https://codeasy.net/lesson/c_sharp_compilation_process)
+
+- [https://docs.microsoft.com/en-us/dotnet/core/tools/(https://docs.microsoft.com/en-us/dotnet/core/tools/)]
+- [https://docs.microsoft.com/pt-br/dotnet/csharp/fundamentals/coding-style/coding-conventions](https://docs.microsoft.com/pt-br/dotnet/csharp/fundamentals/coding-style/coding-conventions)
+- [https://docs.microsoft.com/en-us/dotnet/standard/design-guidelines/general-naming-conventions](https://docs.microsoft.com/en-us/dotnet/standard/design-guidelines/general-naming-conventions)
+- [https://www.tutorialspoint.com/csharp/csharp_basic_syntax.htm](https://www.tutorialspoint.com/csharp/csharp_basic_syntax.htm)
+- [https://www.ralms.net/dica/entity%20framework%20core/snakecase/](https://www.ralms.net/dica/entity%20framework%20core/snakecase/)
+
+- [https://www.tutorialspoint.com/csharp/csharp_data_types.htm](https://www.tutorialspoint.com/csharp/csharp_data_types.htm)
+- [https://docs.microsoft.com/pt-br/dotnet/api/system.datetime?view=net-6.0](https://docs.microsoft.com/pt-br/dotnet/api/system.datetime?view=net-6.0)
