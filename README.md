@@ -21,7 +21,19 @@ dotnet --version
 dotnet --info
 ```
 
--
+- Criando novo projeto no modo "console":
 ```bash
-
+dotnet new console
 ```
+
+- Executando projeto:
+```bash
+dotnet run
+```
+- Lista todos os tipos de projetos que é possível criar:
+```bash
+dotnet new --list
+```
+
+#### Extensões
+![alt text](image.png)
