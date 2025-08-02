@@ -178,14 +178,14 @@ int quantidadeProdutos = 10;
 bool temEstoque = quantidadeProdutos > 0 ? true : false; // Usando operador ternário para verificar se há estoque
 Console.WriteLine($"Tem estoque? {temEstoque}");
 
-int quantidadeCompra = 11;
-bool possivelCompra = quantidadeProdutos >= quantidadeCompra; //? true : false; // Verificando se é possível realizar a compra
+int quantidadeCompra = 0;
+bool posivelVenda = quantidadeCompra > 0 &&quantidadeProdutos >= quantidadeCompra; //? true : false; // Verificando se é possível realizar a compra
 
 Console.WriteLine($"Quantidade solicitada: {quantidadeCompra}");
 Console.WriteLine($"Quantidade disponível em estoque: {quantidadeProdutos}");
-Console.WriteLine($"É possível realizar a compra: {possivelCompra}");
+Console.WriteLine($"É possível realizar a compra: {posivelVenda}");
 
-if (possivelCompra)
+if (posivelVenda)
 {
     Console.WriteLine("Quantidade solicitada disponível em estoque.");
 }
@@ -202,4 +202,19 @@ if (quantidadeCompra > quantidadeProdutos)
 else
 {
     Console.WriteLine("Compra realizada com sucesso.");
+}
+
+// ######################## if aninhado ########################
+Console.WriteLine("if aninhado");
+if (quantidadeCompra == 0)
+{
+    Console.WriteLine("Venda inválida");
+}
+else if (possivelCompra)
+{
+    Console.WriteLine("Quantidade solicitada disponível em estoque.");
+}
+else
+{
+    Console.WriteLine("Quantidade solicitada não disponível em estoque.");
 }
