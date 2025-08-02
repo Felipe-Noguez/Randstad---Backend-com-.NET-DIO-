@@ -171,3 +171,35 @@ else
 {
     Console.WriteLine("Falha na conversão.");
 }
+
+
+// ######################## Operadores condicionais ########################
+int quantidadeProdutos = 10;
+bool temEstoque = quantidadeProdutos > 0 ? true : false; // Usando operador ternário para verificar se há estoque
+Console.WriteLine($"Tem estoque? {temEstoque}");
+
+int quantidadeCompra = 11;
+bool possivelCompra = quantidadeProdutos >= quantidadeCompra; //? true : false; // Verificando se é possível realizar a compra
+
+Console.WriteLine($"Quantidade solicitada: {quantidadeCompra}");
+Console.WriteLine($"Quantidade disponível em estoque: {quantidadeProdutos}");
+Console.WriteLine($"É possível realizar a compra: {possivelCompra}");
+
+if (possivelCompra)
+{
+    Console.WriteLine("Quantidade solicitada disponível em estoque.");
+}
+else
+{
+    Console.WriteLine("Quantidade solicitada não disponível em estoque.");
+}
+
+
+if (quantidadeCompra > quantidadeProdutos)
+{
+    Console.WriteLine("Quantidade solicitada maior que a disponível em estoque.");
+}
+else
+{
+    Console.WriteLine("Compra realizada com sucesso.");
+}
