@@ -251,3 +251,41 @@ switch (letra)
         Console.WriteLine("Você digitou uma letra diferente.");
         break;
 }
+
+// ######################## Operador OR na prática  ########################
+
+bool maiorDeIdade = true;
+bool possuiAutorizacao = false;
+
+if (maiorDeIdade || possuiAutorizacao)
+{
+    Console.WriteLine("Acesso permitido.");
+}
+else
+{
+    Console.WriteLine("Acesso negado.");
+}
+// ######################## Operador AND na prática  ########################
+bool possuiPresencaMinima = true;
+double media = 7.5;
+
+if (possuiPresencaMinima && media >= 7)
+{
+    Console.WriteLine("Aprovado");
+}
+else
+{
+    Console.WriteLine("Reprovado");
+}
+
+// ######################## Operador NOT na prática  ########################
+bool choveu = false;
+bool estaTarde = false;
+if (!choveu && !estaTarde)
+{
+    Console.WriteLine("Vou pedalar.");
+}
+else
+{
+    Console.WriteLine("Vou pedalar outro dia.");
+}
