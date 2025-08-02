@@ -210,11 +210,44 @@ if (quantidadeCompra == 0)
 {
     Console.WriteLine("Venda inválida");
 }
-else if (possivelCompra)
+else if (posivelVenda)
 {
     Console.WriteLine("Quantidade solicitada disponível em estoque.");
 }
 else
 {
     Console.WriteLine("Quantidade solicitada não disponível em estoque.");
+}
+
+// ######################## Aprendendo o switch case ########################
+
+Console.WriteLine("Digite uma letra");
+string letra = Console.ReadLine();
+
+if (
+    letra == "a" ||
+    letra == "e" ||
+    letra == "i" ||
+    letra == "o" ||
+    letra == "u"
+)
+{
+    Console.WriteLine("Você digitou uma vogal.");
+} else
+{
+    Console.WriteLine("Você digitou uma consoante.");
+}
+
+switch (letra)
+{
+    case "a":
+    case "e":
+    case "i":
+    case "o":
+    case "u":
+        Console.WriteLine("Você digitou uma vogal.");
+        break;
+    default:
+        Console.WriteLine("Você digitou uma letra diferente.");
+        break;
 }
