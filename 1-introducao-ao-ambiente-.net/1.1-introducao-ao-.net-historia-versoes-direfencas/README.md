@@ -94,9 +94,17 @@ Links utilizados em aula:
 
 
 
-https://docs.microsoft.com/pt-br/dotnet/csharp/language-reference/operators/assignment-operator
-https://pediaa.com/what-is-the-difference-between-int-parse-and-convert-toint32-in-c/
-https://www.w3schools.com/cs/cs_operators.php
-https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/types/casting-and-type-conversions
+[https://docs.microsoft.com/pt-br/dotnet/csharp/language-reference/operators/assignment-operator](https://docs.microsoft.com/pt-br/dotnet/csharp/language-reference/operators/assignment-operator)
+[https://pediaa.com/what-is-the-difference-between-int-parse-and-convert-toint32-in-c/](https://pediaa.com/what-is-the-difference-between-int-parse-and-convert-toint32-in-c/)
+[https://www.w3schools.com/cs/cs_operators.php](https://www.w3schools.com/cs/cs_operators.php)
+[https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/types/casting-and-type-conversions](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/types/casting-and-type-conversions)
+
+[https://docs.microsoft.com/pt-br/dotnet/csharp/language-reference/statements/selection-statements](https://docs.microsoft.com/pt-br/dotnet/csharp/language-reference/statements/selection-statements)
+[https://docs.microsoft.com/pt-br/dotnet/csharp/language-reference/operators/conditional-operator](https://docs.microsoft.com/pt-br/dotnet/csharp/language-reference/operators/conditional-operator)
+
+[https://docs.microsoft.com/pt-br/dotnet/csharp/language-reference/operators/boolean-logical-operators](https://docs.microsoft.com/pt-br/dotnet/csharp/language-reference/operators/boolean-logical-operators)
+[https://www.w3schools.com/cs/cs_operators.php](https://www.w3schools.com/cs/cs_operators.php)
+
+
 
 
