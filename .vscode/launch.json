@@ -6,10 +6,12 @@
             "type": "coreclr",
             "request": "launch",
             "preLaunchTask": "build",
-            "program": "/home/felipe/Documents/workspaces/.NET/DIO/Randstad - Backend com .NET/2-sintaxe-basica-com-.net/2.1-sintaxe/bin/Debug/net8.0/2.1-sintaxe-e-tipos-de-dados.dll",
+            // "program": "/home/felipe/Documents/workspaces/.NET/DIO/Randstad - Backend com .NET/2-sintaxe-basica-com-.net/2.1-sintaxe/bin/Debug/net8.0/2.1-sintaxe-e-tipos-de-dados.dll",
+            "program": "/home/felipe/Documents/workspaces/.NET/DIO/Randstad - Backend com .NET/4-estruturas-de-repeticao/bin/Debug/net8.0/4-estruturas-de-repeticao.dll",
             "args": [],
             "cwd": "${workspaceFolder}",
-            "console": "internalConsole",
+            // "console": "internalConsole",
+            "console": "integratedTerminal",
             "stopAtEntry": false
         },
         {
