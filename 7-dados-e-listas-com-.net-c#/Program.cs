@@ -87,3 +87,122 @@ else
 {
     Console.WriteLine("Conversão falhou.");
 }
+
+// ######################### exceções e coleções - realizando a leitura de um arquivo #########################
+// ######################### exceções e coleções - tratando uma exceção #########################
+// ######################### exceções e coleções - exceção genéria e específica #########################
+// ######################### exceções e coleções - entendendo o bloco finally #########################
+
+try
+{
+    string[] linhas = File.ReadAllLines("Arquivos/arquivo77Leitura.txt");
+    foreach (string linha in linhas)
+    {
+        Console.WriteLine(linha);
+    }
+}
+catch (FileNotFoundException ex)
+{
+    Console.WriteLine($"Arquivo não encontrado: {ex.Message}");
+}
+catch (Exception ex)
+{
+    Console.WriteLine($"Ocorreu um erro: {ex.Message}");
+}
+finally
+{
+    Console.WriteLine("Operação de leitura finalizada.");
+}
+
+
+// ######################### exceções e coleções - usando o Throw #########################
+
+ExemploExcecao exemploExcecao = new ExemploExcecao();
+exemploExcecao.metodo1();
+
+// ######################### fila na pratica #########################
+
+Queue<int> fila = new Queue<int>();
+fila.Enqueue(1);
+fila.Enqueue(4);
+fila.Enqueue(7);
+Console.WriteLine($"Primeiro elemento da fila: {fila.Peek()}");
+foreach (int item in fila)
+{
+    Console.WriteLine(item);
+}
+Console.WriteLine($"Removendo o primeiro elemento da fila: {fila.Dequeue()}");
+
+foreach (int item in fila)
+{
+    Console.WriteLine(item);
+}
+
+Console.WriteLine("Adicionando novo elemento à fila:");
+fila.Enqueue(5);
+fila.Enqueue(10);
+foreach (int item in fila)
+{
+    Console.WriteLine(item);
+}
+
+// ######################### pilha na pratica #########################
+
+Stack<int> pilha = new Stack<int>();
+pilha.Push(1);
+pilha.Push(4);
+pilha.Push(7);
+pilha.Push(9);
+Console.WriteLine($"Topo da pilha: {pilha.Peek()}");
+foreach (int item in pilha)
+{
+    Console.WriteLine($"Item da pilha: {item}");
+}
+
+Console.WriteLine($"Removendo o topo da pilha: {pilha.Pop()}");
+
+pilha.Push(50);
+foreach (int item in pilha)
+{
+    Console.WriteLine($"Item da pilha: {item}");
+}
+
+// ######################### introdução Dictionary #########################
+
+// Dicionário é uma coleção de pares chave-valor
+// Ele permite acesso rápido aos valores através das chaves
+Dictionary<string, string> estados = new Dictionary<string, string>();
+estados.Add("SP", "São Paulo");
+estados.Add("RJ", "Rio de Janeiro");
+estados.Add("MG", "Minas Gerais");
+estados["BA"] = "Bahia"; // Outra forma de adicionar elementos
+
+
+foreach (KeyValuePair<string, string> item in estados)
+{
+    Console.WriteLine($"Chave: {item.Key}, Valor: {item.Value}");
+}
+
+estados.Remove("MG");
+
+foreach (var item in estados)
+{
+    Console.WriteLine($"Chave: {item.Key}, Valor: {item.Value}");
+}
+
+
+string chave = "SP";
+// ContainsKey verifica se a chave existe no dicionário
+Console.WriteLine($"Verificando se o elemento {chave} existe no dicionário: {estados.ContainsKey(chave)}");
+
+if (estados.ContainsKey(chave))
+{
+    Console.WriteLine($"O estado {chave} existe no dicionário.");
+}
+else
+{
+    Console.WriteLine($"O estado {chave} não foi encontrado no dicionário.");
+}
+
+// Acessando o valor de uma chave específica
+Console.WriteLine(estados["SP"]);
