@@ -47,10 +47,22 @@ namespace _7_dados_e_listas_com_.net_c_.Models
             }
 
             Console.WriteLine($"Alunos matriculados no curso de {Nome}:");
-            foreach (var aluno in Alunos)
+
+            for (int i = 0; i < Alunos.Count; i++)
             {
-                Console.WriteLine(aluno.NomeCompleto);
+                // Console.WriteLine($"{i + 1} - {Alunos[i].NomeCompleto}");
+
+                // Usando concatenação de strings
+                string texto = "Nº " + (i + 1) + " - " + Alunos[i].NomeCompleto;
+                // Usando interpolação de strings
+                string texto1 = $"Nº {i + 1} - {Alunos[i].NomeCompleto}";
+                Console.WriteLine(texto);
+                Console.WriteLine(texto1);
             }
+            // foreach (var aluno in Alunos)
+            // {
+            //     Console.WriteLine(aluno.NomeCompleto);
+            // }
         }
     }
 }
